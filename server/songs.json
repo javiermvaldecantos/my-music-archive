@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Stairway to Heaven",
+    "artist": "Led Zeppelin",
+    "album": "Led Zeppelin IV",
+    "genre": "Rock",
+    "duration": "8:02",
+    "rating": "5"
+  },
+  {
+    "title": "Baby What You Want Me to Do",
+    "artist": "Jimmy Reed",
+    "album": "Baby What You Want Me to Do",
+    "genre": "Blues",
+    "duration": "2:22",
+    "rating": "4"
+  },
+  {
+    "title": "Blood Sugar",
+    "artist": "Pendulum",
+    "album": "Hold Your Colour",
+    "genre": "Drum & Bass",
+    "duration": "5:17",
+    "rating": "5"
+  },
+  {
+    "title": "Shape of You",
+    "artist": "Ed Sheeran",
+    "album": "Divide",
+    "genre": "Pop",
+    "duration": "3:53",
+    "rating": "4"
+  },
+  {
+    "title": "Jump in the Line (Shake, Senora)",
+    "artist": "Harry Belafonte",
+    "album": "Jump Up Calypso",
+    "genre": "Calypso",
+    "duration": "3:39",
+    "rating": "4"
+  },
+  {
+    "title": "Eleanor Rigby",
+    "artist": "The Beatles",
+    "album": "Revolver",
+    "genre": "Rock",
+    "duration": "2:08",
+    "rating": "5"
+  },
+  {
+    "title": "American Pie",
+    "artist": "Don McLean",
+    "album": "American Pie",
+    "genre": "Rock",
+    "duration": "8:33",
+    "rating": "3"
+  }
+]
