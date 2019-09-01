@@ -1,68 +1,52 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# my-music-archive
 
-## Available Scripts
+## [ES]
+Esta web app simula un archivo de música que contiene una lista de canciones. Ha sido desarrollada con React + Redux + Saga. Tiene tres páginas:
+- Home, la página de inicio
+- All songs, una página con una tabla que contiene los datos de las canciones.
+- New song form, una página con un formulario para crear una nueva canción.
 
-In the project directory, you can run:
+### Cómo ejecutar la aplicación
+Para ejecutar la app, sigue estos pasos:
+1. Clona el repositorio `git clone https://github.com/javiermvaldecantos/my-music-archive.git`
+2. Ve a la carpeta del proyecto `cd my-music-archive`
+3. Ejecuta `npm install` para instalar las dependencias
+4. Ejecuta `npm run app` para poner en marcha el servidor y el front-end. Opcionalmente, se pueden poner en marcha por separado con los comandos `npm run server` y `npm run start` respectivamente.
+5. Ir a `http://localhost:3000/` para ver la app. Para ver la respuesta del servidor se puede ir a 
+`http://localhost:3001/api/songs`.
 
-### `npm start`
+### Comentarios
+- La aplicación es 100% responsive.
+- Para el estilo he usilizado Bootstrap y SASS.
+- Para los nombres de las clases de los componentes he utilizado una nomenclatura similar a BEM.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Futuras mejoras no realizadas
+- Mejorar la validación del formulario
+- Hacer un POST request al servidor para crear una nueva canción.
+- Mostrar una animación de "cargando" mientras esperamos a recibir los datos del servidor.
+- Mostrar un mensaje de error si algo falla al recibir los datos del servidor. 
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## [EN]
+This web app is a music archive that contains a list of songs. It was built using React + Redux + Saga. There are three pages: 
+- Home page, that shows a welcome message.
+- All songs page, that shows a table with the list of songs.
+- New song form page, that shows a form to create a new song
 
-### `npm test`
+## How to run the app
+To run the app, follow these steps:
+1. Clone the repository `git clone https://github.com/javiermvaldecantos/my-music-archive.git`
+2. Go to the root folder `cd my-music-archive`
+3. Run `npm install` to install the dependencies
+4. Run `npm run app` to run both the server and the front-end. Optionally, you can run the server with the command `npm run server` and the front-end with the command `npm run start`.
+5. Go to `http://localhost:3000/` to see the home page. If you want to see the API response of the server, go to `http://localhost:3001/api/songs`.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Comments
+- The app is fully responsive. The menu collapses on mobile, and the table becomes scrollable.
+- Bootstrap and SASS have been used for styling the app.
+- A naming convention similar to BEM has been used to name the class names of the components.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Future improvements
+- Improve validation for the new song form.
+- Do a POST request when creating a new song and handle it in the server.
+- Display a loading animation while the list of songs is loading.
+- Display an error message if the list of songs couldn't be retrieved.
