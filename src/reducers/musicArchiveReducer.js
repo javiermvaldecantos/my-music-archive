@@ -2,7 +2,7 @@ import {
   RENDER_SONGS_TABLE,
   RESET_NEW_SONG_FORM,
   MODIFY_NEW_SONG,
-  ADD_NEW_SONG,
+  DISPLAY_ADD_NEW_SONG_SUCCESS,
   DISPLAY_ADD_NEW_SONG_ERROR
 } from "../actions/musicArchiveAction";
 
@@ -44,23 +44,18 @@ const reducer = (state = initialState, action) => {
         ...state,
         newSong: newSong
       };
-    
-    case ADD_NEW_SONG:
-      // añadimos la canción a state.songs
-      // de todas formas, si refrescamos la página el estado se borrará,
-      // por lo que para hacerlo de forma correcta habría que hacer un POST al servidor
-      action.newSong.id = "000000" + (state.songs.length + 1);
 
-      return {
-        ...state,
-        songs: [
-          ...state.songs,
-          action.newSong
-        ],
-        newSong: { title: '', artist: '', album: '', genre: '', duration: '', rating: '' },
-        addNewSongSuccess: true,
-        addNewSongError: false
-      };
+    case DISPLAY_ADD_NEW_SONG_SUCCESS:
+        return {
+          ...state,
+          songs: [
+            ...state.songs,
+            action.newSong
+          ],
+          newSong: { title: '', artist: '', album: '', genre: '', duration: '', rating: '' },
+          addNewSongSuccess: true,
+          addNewSongError: false
+        };
 
     case DISPLAY_ADD_NEW_SONG_ERROR:
       return {
