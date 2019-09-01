@@ -1,0 +1,14 @@
+.app {
+  &--header {
+  }
+
+  &--title-wrapper {
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+
+  &--body {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+}

@@ -1,5 +1,6 @@
 [
   {
+    "id": "0000001",
     "title": "Stairway to Heaven",
     "artist": "Led Zeppelin",
     "album": "Led Zeppelin IV",
@@ -8,6 +9,7 @@
     "rating": "5"
   },
   {
+    "id": "0000002",
     "title": "Baby What You Want Me to Do",
     "artist": "Jimmy Reed",
     "album": "Baby What You Want Me to Do",
@@ -16,6 +18,7 @@
     "rating": "4"
   },
   {
+    "id": "0000003",
     "title": "Blood Sugar",
     "artist": "Pendulum",
     "album": "Hold Your Colour",
@@ -24,6 +27,7 @@
     "rating": "5"
   },
   {
+    "id": "0000004",
     "title": "Shape of You",
     "artist": "Ed Sheeran",
     "album": "Divide",
@@ -32,6 +36,7 @@
     "rating": "4"
   },
   {
+    "id": "0000005",
     "title": "Jump in the Line (Shake, Senora)",
     "artist": "Harry Belafonte",
     "album": "Jump Up Calypso",
@@ -40,6 +45,7 @@
     "rating": "4"
   },
   {
+    "id": "0000006",
     "title": "Eleanor Rigby",
     "artist": "The Beatles",
     "album": "Revolver",
@@ -48,6 +54,7 @@
     "rating": "5"
   },
   {
+    "id": "0000007",
     "title": "American Pie",
     "artist": "Don McLean",
     "album": "American Pie",

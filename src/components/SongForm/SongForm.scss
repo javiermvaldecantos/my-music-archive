@@ -1,0 +1,17 @@
+.song-form {
+  // centramos el formulario y limitamos su anchura
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  &--submit-btn-wrapper {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  &--submit-btn {
+    display: block;
+    width: 100%;
+  }
+}

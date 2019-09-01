@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 
-// Datos sobre los teléfonos (mock data). Están definidos en un archivo JSON.
+// Datos sobre las canciones (mock data). Están definidas en un archivo JSON.
 const songsData = require('./songs.json');
 
 app.get('/api/songs', (req, res) => {
